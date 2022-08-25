@@ -18,7 +18,7 @@ void dfs(int x, int p) {
 	}
 	if (low[x] == d[x]) {
 		id++;
-		int xx;
-		do xx = st.top(), st.pop(), bcc[xx] = id; while (xx != x);
+		int tmp;
+		do tmp = st.top(), st.pop(), bcc[tmp] = id; while (tmp != x);
 	}
 }
