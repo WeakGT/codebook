@@ -3,7 +3,7 @@
 #define eb emplace_back
 constexpr int N = 2e5 + 1;
 
-int d[N], low[N], id;
+int d[N], low[N];
 vector<int> g[N];
 vector<vector<int>> bcc;
 stack<int> st;
