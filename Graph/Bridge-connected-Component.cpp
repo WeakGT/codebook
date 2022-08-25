@@ -1,7 +1,7 @@
 #define ep emplace
 constexpr int N = 2e5 + 1;
 
-int d[N], low[N], bcc[N], id;
+int d[N], low[N], bcc[N], nbcc;
 vector<int> g[N];
 stack<int> st;
 
@@ -17,8 +17,8 @@ void dfs(int x, int p) {
 		low[x] = min(low[x], d[i]);
 	}
 	if (low[x] == d[x]) {
-		id++;
+		nbcc++;
 		int tmp;
-		do tmp = st.top(), st.pop(), bcc[tmp] = id; while (tmp != x);
+		do tmp = st.top(), st.pop(), bcc[tmp] = nbcc; while (tmp != x);
 	}
 }
