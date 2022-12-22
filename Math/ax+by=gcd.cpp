@@ -4,8 +4,8 @@ using namespace std;
 
 pair<ll, ll> extgcd(ll a, ll b) {
   if (b == 0) return {1, 0};
-  pair<ll, ll> q = extgcd(b, a % b);
-  return {q.second, q.first - q.second * (a / b)};
+  auto [xp, yp] = extgcd(b, a % b);
+  return {yp, xp - a / b * yp};
 }
 
 int main() {
