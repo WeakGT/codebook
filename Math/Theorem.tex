@@ -1,0 +1,13 @@
+\begin{itemize}[leftmargin=*]
+\setlength\itemsep{0.2em}
+\item Chinese Remainder Theorem:\\
+if $m_1,m_2,\dots,m_n$ are coprime with each other, then\\
+$\begin{cases}x\equiv a_1\pmod{m_1}\\x\equiv a_2\pmod{m_2}\\\dots\\x\equiv a_n\pmod{m_n}\end{cases}$\\
+could be solved by Chinese Remainder Theorem.\\
+1. Let $M=m_1\times m_2\times\dots\times m_n$ and let $M_i=\frac{M}{m_i}$\\
+2. Find $t_i$ s.t. $M_i\cdot t_i\equiv1\pmod{m_i}$ by Extended Euclidean algorithm.\\
+3. For any integer $k$, there exists general solution\\
+$x=a_1t_1M_1+a_2t_2M_2+\dots+a_nt_nM_n+kM=kM+\sum\limits_{i=1}^na_it_iM_i$
+
+
+\end{itemize}

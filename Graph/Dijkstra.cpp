@@ -10,7 +10,7 @@ vector<pii> g[N];
 vector<ll> d(N, inf);
 
 ll dijkstra(int n, int m, int s, int t) { // n vertices, m edges, source, target
-	for (int i = 0; i < n; g[i].clear(), i++);	
+	for (int i = 0; i < n; g[i].clear(), i++);
 	for (int i = 0, a, b, c; i < m; i++)
 		cin >> a >> b >> c, g[a].eb(b, c), g[b].eb(a, c);
 	priority_queue<pii, vector<pii>, greater<pii>> pq;

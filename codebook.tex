@@ -1,0 +1,251 @@
+\documentclass[a4paper,10pt,twocolumn,oneside]{article}
+\setlength{\columnsep}{10pt}                                                                    %兩欄模式的間距
+\setlength{\columnseprule}{0pt}                                                                %兩欄模式間格線粗細
+
+\usepackage{amsthm}								%定義，例題
+\usepackage{amssymb}
+%\usepackage[margin=2cm]{geometry}
+\usepackage{fontspec}								%設定字體
+\usepackage{color}
+\usepackage[x11names]{xcolor}
+\usepackage{listings}								%顯示code用的
+%\usepackage[Glenn]{fncychap}						%排版，頁面模板
+\usepackage{fancyhdr}								%設定頁首頁尾
+\usepackage{graphicx}								%Graphic
+\usepackage{enumerate}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage[CheckSingle, CJKmath]{xeCJK}
+% \usepackage{CJKulem}
+
+%\usepackage[T1]{fontenc}
+\titlespacing{\section}{0cm}{0cm}{0cm}
+\titlespacing{\subsection}{0cm}{0cm}{0cm}
+\usepackage{amsmath, courier, listings, fancyhdr, graphicx}
+\topmargin=0pt
+\headsep=5pt
+\textheight=780pt
+\footskip=0pt
+\voffset=-40pt
+\textwidth=550pt
+\marginparsep=0pt
+\marginparwidth=0pt
+\marginparpush=0pt
+\oddsidemargin=0pt
+\evensidemargin=0pt
+\hoffset=-50pt
+
+%\renewcommand\listfigurename{圖目錄}
+%\renewcommand\listtablename{表目錄} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setmainfont [				%主要字型
+    Path = .fonts/ttf/,
+    UprightFont = *-Regular,
+    BoldFont = *-Bold,
+    ItalicFont = *-Italic
+  ] {Consolas}
+
+\setmonofont [        
+    Path = .fonts/ttf/,
+    UprightFont = *-Regular
+  ] {Monaco}
+%\setCJKmainfont{BabelStone Han}
+%\setCJKmainfont{Source Han Sans}
+%\setCJKmainfont{Consolas}			%中文字型
+%\setmainfont{sourcecodepro}
+\XeTeXlinebreaklocale "zh"						%中文自動換行
+\XeTeXlinebreakskip = 0pt plus 1pt				%設定段落之間的距離
+\setcounter{secnumdepth}{3}						%目錄顯示第三層
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\lst@CCPutMacro\lst@ProcessOther {"2D}{\lst@ttfamily{-{}}{-{}}}
+\@empty\z@\@empty
+\makeatother
+\lstset{											% Code顯示
+language=C++,										% the language of the code
+basicstyle=\footnotesize\ttfamily, 						% the size of the fonts that are used for the code
+%numbers=left,										% where to put the line-numbers
+numberstyle=\footnotesize,						% the size of the fonts that are used for the line-numbers
+stepnumber=1,										% the step between two line-numbers. If it's 1, each line  will be numbered
+numbersep=5pt,										% how far the line-numbers are from the code
+backgroundcolor=\color{white},					% choose the background color. You must add \usepackage{color}
+showspaces=false,									% show spaces adding particular underscores
+showstringspaces=false,							% underline spaces within strings
+showtabs=false,									% show tabs within strings adding particular underscores
+frame=false,											% adds a frame around the code
+tabsize=2,											% sets default tabsize to 2 spaces
+captionpos=b,										% sets the caption-position to bottom
+breaklines=true,									% sets automatic line breaking
+breakatwhitespace=false,							% sets if automatic breaks should only happen at whitespace
+escapeinside={\%*}{*)},							% if you want to add a comment within your code
+morekeywords={*},									% if you want to add more keywords to the set
+keywordstyle=\bfseries\color{Blue1},
+commentstyle=\itshape\color{Red4},
+stringstyle=\itshape\color{Green4},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{fancy}
+\fancyfoot{}
+%\fancyfoot[R]{\includegraphics[width=20pt]{ironwood.jpg}}
+\fancyhead[L]{National Tsing Hua University APSPA}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\contentsname}{Contents} 
+
+\scriptsize
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \newpage
+
+\section{Basics}
+\subsection{Vimrc}
+\lstinputlisting{Basics/Vimrc}
+
+\subsection{Shell-Script}
+\lstinputlisting{Basics/Shell-Script}
+
+\subsection{Default}
+\lstinputlisting{Basics/Default.cpp}
+
+\subsection{IO-optimize}
+\lstinputlisting{Basics/IO-optimize.cpp}
+
+\section{DataStructure}
+\subsection{2D-Segment-Tree}
+\lstinputlisting{DataStructure/2D-Segment-Tree.cpp}
+
+\subsection{BIT}
+\lstinputlisting{DataStructure/BIT.cpp}
+
+\subsection{SegMentTree}
+\lstinputlisting{DataStructure/SegMentTree.cpp}
+
+\subsection{Treap}
+\lstinputlisting{DataStructure/Treap.cpp}
+
+\section{Flow}
+\subsection{Bipartite-Matching}
+\lstinputlisting{Flow/Bipartite-Matching.cpp}
+
+\subsection{Dinic}
+\lstinputlisting{Flow/Dinic.cpp}
+
+\subsection{KM}
+\lstinputlisting{Flow/KM.cpp}
+
+\section{Geometry}
+\subsection{ConvexHull}
+\lstinputlisting{Geometry/ConvexHull.cpp}
+
+\subsection{Segmentation-Intersection}
+\lstinputlisting{Geometry/Segmentation-Intersection.cpp}
+
+\section{Graph}
+\subsection{2-SAT}
+\lstinputlisting{Graph/2-SAT.cpp}
+
+\subsection{AP-Bridge}
+\lstinputlisting{Graph/AP-Bridge.cpp}
+
+\subsection{Bellman-Ford}
+\lstinputlisting{Graph/Bellman-Ford.cpp}
+
+\subsection{Biconnected-Component}
+\lstinputlisting{Graph/Biconnected-Component.cpp}
+
+\subsection{Bridge-connected-Component}
+\lstinputlisting{Graph/Bridge-connected-Component.cpp}
+
+\subsection{Dijkstra}
+\lstinputlisting{Graph/Dijkstra.cpp}
+
+\subsection{DisjointSet}
+\lstinputlisting{Graph/DisjointSet.cpp}
+
+\subsection{Floyd-Warshall}
+\lstinputlisting{Graph/Floyd-Warshall.cpp}
+
+\subsection{Heavy-Light-Decomposition}
+\lstinputlisting{Graph/Heavy-Light-Decomposition.cpp}
+
+\subsection{KSP}
+\lstinputlisting{Graph/KSP.cpp}
+
+\subsection{LCA}
+\lstinputlisting{Graph/LCA.cpp}
+
+\subsection{MST-Kruskal’s}
+\lstinputlisting{Graph/MST-Kruskal’s.cpp}
+
+\subsection{MST-Prim’s}
+\lstinputlisting{Graph/MST-Prim’s.cpp}
+
+\subsection{SCC(Kosaraju)}
+\lstinputlisting{Graph/SCC(Kosaraju).cpp}
+
+\subsection{SPFA}
+\lstinputlisting{Graph/SPFA.cpp}
+
+\subsection{Strongly-Connected-Component}
+\lstinputlisting{Graph/Strongly-Connected-Component.cpp}
+
+\subsection{TopologicalSort}
+\lstinputlisting{Graph/TopologicalSort.cpp}
+
+\subsection{TreeCentroid}
+\lstinputlisting{Graph/TreeCentroid.cpp}
+
+\section{Math}
+\subsection{ax+by=gcd}
+\lstinputlisting{Math/ax+by=gcd.cpp}
+
+\subsection{Big-Int}
+\lstinputlisting{Math/Big-Int.cpp}
+
+\subsection{Karatsuba}
+\lstinputlisting{Math/Karatsuba.cpp}
+
+\subsection{Linear-Sieve}
+\lstinputlisting{Math/Linear-Sieve.cpp}
+
+\subsection{Matrix}
+\lstinputlisting{Math/Matrix.cpp}
+
+\subsection{Miller-Rabin}
+\lstinputlisting{Math/Miller-Rabin.cpp}
+
+\subsection{NTT}
+\lstinputlisting{Math/NTT.cpp}
+
+\subsection{Pollard-Rho}
+\lstinputlisting{Math/Pollard-Rho.cpp}
+
+\subsection{Theorem}
+\input{Math/Theorem.tex}
+
+\section{Others}
+\subsection{Partial-Ordering}
+\lstinputlisting{Others/Partial-Ordering.cpp}
+
+\section{String}
+\subsection{Hash}
+\lstinputlisting{String/Hash.cpp}
+
+\subsection{KMP}
+\lstinputlisting{String/KMP.cpp}
+
+\subsection{Manacher}
+\lstinputlisting{String/Manacher.cpp}
+
+\subsection{SuffixArray}
+\lstinputlisting{String/SuffixArray.cpp}
+
+\end{document}
