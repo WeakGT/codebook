@@ -1,4 +1,4 @@
-constexpr int N = 2e5 + 1;
+const int N = 2e5 + 5;
 int p[N], s[N];
 void init(int n) {
 	for (int i = 0; i <= n; i++) p[i] = i, r[i] = 1;

@@ -1,7 +1,6 @@
 #define pb push_back
-constexpr int N = 1e6;
+const int N = 1e6 + 5;
 int F[N];
-
 vector<int> match(string A, string B) {
   vector<int> ans;
   F[0] = -1, F[1] = 0;

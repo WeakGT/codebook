@@ -1,6 +1,5 @@
 vector<bool> isp;
 vector<int> p;
-
 void sieve(int n) {
   p.clear(), isp.assign(n + 1, 1);
   isp[0] = isp[1] = 0;

@@ -1,7 +1,7 @@
 // beware of multiple inputs
 #define ep emplace
 #define eb emplace_back
-constexpr int N = 2e5 + 1;
+const int N = 2e5 + 5;
 
 int d[N], low[N];
 vector<int> g[N];

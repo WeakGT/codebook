@@ -4,7 +4,6 @@ using namespace std;
 using ll = long long;
 const int N = 1e5 + 5, M = 2e5 + 5;
 int n, K, cnt, ans[N];
-
 struct node {
   int x, y, z, v, ans, tag, id;
   node() { ans = tag = v = x = y = z = 0; }
@@ -12,32 +11,26 @@ struct node {
     return (a.x == b.x) && (a.y == b.y) && (a.z == b.z);
   }
 } a[N], t[N];
-
 bool cmp1(const node &a, const node &b) {
   if (a.x != b.x) return a.x < b.x;
   if (a.y != b.y) return a.y < b.y;
   return a.z < b.z;
 }
-
 bool cmp2(const node &a, const node &b) {
   if (a.y != b.y) return a.y < b.y;
   if (a.tag != b.tag) return a.tag < b.tag;
   return a.id < b.id;
 }
-
 #define lowbit(x) (x & -x)
 int bit[M];
-
 void add(int p, int x) {
   for (; p <= K; p += lowbit(p)) bit[p] += x;
 }
-
 int query(int p) {
   int ret = 0;
   for (; p; p -= lowbit(p)) ret += bit[p];
   return ret;
 }
-
 void CDQ(int l, int r) {
   if (l == r) return;
   int mid = (l + r) >> 1;
@@ -53,7 +46,6 @@ void CDQ(int l, int r) {
   for (int i = l; i <= r; ++i)
     if (!a[i].tag) add(a[i].z, -a[i].v);
 }
-
 int main() {
   cin >> n >> K;
   for (int i = 1; i <= n; ++i) cin >> a[i].x >> a[i].y >> a[i].z, a[i].v = 1;

@@ -1,6 +1,5 @@
 #define lowbit(x) (x & -x)
-using ll = long long;
-constexpr int N = 2e5 + 1;
+const int N = 2e5 + 5;
 int n; // maxn
 ll a[N], bit1[N], bit2[N];
 ll sum(ll* bit, int x) {
