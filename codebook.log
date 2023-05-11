@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.9.15)  30 MAR 2023 16:23
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.7) (preloaded format=xelatex 2022.9.15)  11 MAY 2023 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -566,7 +566,8 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
 (Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
 
-) (Basics/IO-optimize.cpp) (Basics/run.sh) (Data-Structure/2D-Segment-Tree.cpp
+) (Basics/IO-optimize.cpp) (Basics/Random.cpp) (Basics/run.sh)
+(Data-Structure/2D-Segment-Tree.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -575,27 +576,28 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 ]) (Data-Structure/BIT.cpp) (Data-Structure/Segment-Tree.cpp)
-(Data-Structure/Treap.cpp) (Data-Structure/ZKW-Segment-Tree.cpp
+(Data-Structure/Treap.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2]) (Flow/Bipartite-Matching.cpp) (Flow/Dinic.cpp) (Flow/KM.cpp
+[2]) (Data-Structure/ZKW-Segment-Tree.cpp) (Flow/Bipartite-Matching.cpp)
+(Flow/Dinic.cpp) (Flow/KM.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [3]) (Geometry/Convex-Hull.cpp) (Geometry/Segmentation-Intersection.cpp)
-(Graph/2-SAT.cpp) (Graph/AP-Bridge.cpp) (Graph/Biconnected-Component.cpp
+(Graph/2-SAT.cpp) (Graph/AP-Bridge.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[4]) (Graph/Bridge-connected-Component.cpp) (Graph/Disjoint-Set.cpp)
-(Graph/Heavy-Light-Decomposition.cpp) (Graph/KSP.cpp
+[4]) (Graph/Biconnected-Component.cpp) (Graph/Bridge-connected-Component.cpp)
+(Graph/Disjoint-Set.cpp) (Graph/Heavy-Light-Decomposition.cpp) (Graph/KSP.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -621,36 +623,46 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [7]) (Math/Extgcd.cpp) (Math/Karatsuba.cpp) (Math/Linear-Sieve.cpp)
-(Math/Matrix.cpp) (Math/Miller-Rabin.cpp) (Math/NTT.cpp
+(Math/Matrix.cpp) (Math/Miller-Rabin.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[8]) (Math/Pollard-Rho.cpp) (Math/Theorem.tex) (Others/Partial-Ordering.cpp
+[8]) (Math/NTT.cpp) (Math/Pollard-Rho.cpp) (Math/Theorem.tex)
+(Others/Partial-Ordering.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [9]) (String/Hash.cpp) (String/KMP.cpp) (String/Manacher.cpp) (String/SA.cpp)
+(String/Z.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[10] (codebook.aux)
+[10])
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[11
+
+] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10565 strings out of 410654
- 232267 string characters out of 2816502
- 2128040 words of memory out of 3000000
- 31382 multiletter control sequences out of 15000+600000
+ 10599 strings out of 410654
+ 232732 string characters out of 2816502
+ 2139040 words of memory out of 3000000
+ 31410 multiletter control sequences out of 15000+600000
  471348 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,12n,77p,250b,1647s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on codebook.pdf (10 pages).
+Output written on codebook.pdf (11 pages).

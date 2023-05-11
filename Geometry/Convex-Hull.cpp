@@ -21,7 +21,7 @@ vector<pair<T, T>> convex_hull(vector<pair<T, T>> hull) {
       stk.pop_back();
     stk.push_back(hull[i]);
   }
-  for (int i = n - 2, t = stk.size() + 1; i; i--) {
+  for (int i = n - 2, t = stk.size() + 1; i >= 0; i--) {
     while ((int)stk.size() >= t && cross(stk.end()[-2], stk.end()[-1], hull[i]) <= 0)
       stk.pop_back();
     stk.push_back(hull[i]);
