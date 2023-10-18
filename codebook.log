@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.9.13)  14 SEP 2023 23:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.9.13)  19 OCT 2023 01:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -564,8 +564,8 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/m/it' undefined
 LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
 (Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
 
-) (Basics/IO-optimize.cpp) (Basics/Random.cpp) (Basics/run.sh)
-(Data-Structure/2D-BIT.cpp) (Data-Structure/2D-Segment-Tree.cpp
+) (Basics/IO-optimize.cpp) (Basics/PBDS.cpp) (Basics/Random.cpp) (Basics/run.sh
+) (Data-Structure/2D-BIT.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -573,11 +573,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(Data-Structure/BIT.cpp) (Data-Structure/LiChaoST.cpp
+]) (Data-Structure/2D-Segment-Tree.cpp) (Data-Structure/BIT.cpp)
+(Data-Structure/LiChaoST.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -590,43 +587,41 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[3]) (Flow/Dinic.cpp) (Flow/KM.cpp) (Flow/MCMF.cpp
+[3]) (Flow/Dinic.cpp) (Flow/KM.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[4]) (Geometry/Convex-Hull.cpp) (Geometry/Dynamic-Convex-Hull.cpp)
-(Geometry/Segmentation-Intersection.cpp
+[4]) (Flow/MCMF.cpp) (Geometry/Convex-Hull.cpp)
+(Geometry/Dynamic-Convex-Hull.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[5]) (Graph/2-SAT.cpp) (Graph/AP-Bridge.cpp) (Graph/Biconnected-Component.cpp)
-(Graph/Bridge-connected-Component.cpp) (Graph/Close-Vertices.cpp
+[5]) (Geometry/Segmentation-Intersection.cpp) (Graph/2-SAT.cpp)
+(Graph/AP-Bridge.cpp) (Graph/Biconnected-Component.cpp)
+(Graph/Bridge-connected-Component.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-)
-(Graph/Disjoint-Set.cpp) (Graph/Heavy-Light-Decomposition.cpp
+[6]) (Graph/Close-Vertices.cpp) (Graph/Disjoint-Set.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[7]) (Graph/KSP.cpp) (Graph/LCA.cpp) (Graph/SCC(Kosaraju).cpp
+[7]) (Graph/Heavy-Light-Decomposition.cpp) (Graph/KSP.cpp) (Graph/LCA.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[8]) (Graph/SCC(Tarjan).cpp) (Graph/Tree-Centroid.cpp) (Math/Big-Int.cpp
+[8]) (Graph/SCC(Kosaraju).cpp) (Graph/SCC(Tarjan).cpp) (Graph/Tree-Centroid.cpp
+) (Math/Big-Int.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -639,49 +634,52 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(Math/Extgcd.cpp) (Math/Karatsuba.cpp) (Math/Linear-Sieve.cpp) (Math/Matrix.cpp
+(Math/Extgcd.cpp) (Math/Karatsuba.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[10]) (Math/Miller-Rabin.cpp) (Math/NTT.cpp) (Math/Pollard-Rho.cpp
+[10]) (Math/Linear-Sieve.cpp) (Math/Matrix.cpp) (Math/Miller-Rabin.cpp)
+(Math/NTT.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[11]) (Math/Theorem.tex) (Others/Partial-Ordering.cpp) (String/AC.cpp)
-(String/Hash.cpp) (String/KMP.cpp
+[11]) (Math/Pollard-Rho.cpp) (Math/Theorem.tex) (Others/Mo.cpp)
+(Others/Partial-Ordering.cpp)
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[12]) (String/Manacher.cpp) (String/SA.cpp) (String/SAIS.cpp) (String/Z.cpp
+[12] (String/AC.cpp) (String/Hash.cpp) (String/KMP.cpp) (String/Manacher.cpp)
+(String/SA.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[13])
+[13]) (String/SAIS.cpp) (String/Z.cpp)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[14
-
-] (codebook.aux)
+[14] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10874 strings out of 411463
- 236022 string characters out of 5818007
- 3243290 words of memory out of 5000000
- 30853 multiletter control sequences out of 15000+600000
+ 10926 strings out of 411463
+ 236712 string characters out of 5818007
+ 3171290 words of memory out of 5000000
+ 30899 multiletter control sequences out of 15000+600000
  514376 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,12n,77p,386b,1649s stack positions out of 10000i,1000n,20000p,200000b,200000s
