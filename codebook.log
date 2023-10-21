@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.9.13)  19 OCT 2023 01:42
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.9.13)  21 OCT 2023 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -533,11 +533,36 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (C:\Users\jason\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...ubsection}{\numberline {4.1}Basic_2D}{5}{}
+                                                  %
+? 
+! Extra }, or forgotten $.
+\@dottedtocline ...\nobreak \hskip -\leftskip {#4}
+                                                  \nobreak \leaders \hbox {$...
+l.22 ...ubsection}{\numberline {4.1}Basic_2D}{5}{}
+                                                  %
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.22 ...ubsection}{\numberline {4.1}Basic_2D}{5}{}
+                                                  %
+? 
+)
 \tf@toc=\write3
 \openout3 = `codebook.toc'.
 
 
+! Missing } inserted.
+<inserted text> 
+                }
+l.103 \tableofcontents
+                      
+? 
 
 Package fontspec Warning: Font "FandolFang-Regular" does not contain requested
 (fontspec)                Script "CJK".
@@ -565,7 +590,7 @@ LaTeX Font Warning: Font shape `TU/Monaco(0)/b/n' undefined
 (Font)              using `TU/Monaco(0)/m/n' instead on input line 1.
 
 ) (Basics/IO-optimize.cpp) (Basics/PBDS.cpp) (Basics/Random.cpp) (Basics/run.sh
-) (Data-Structure/2D-BIT.cpp
+)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
@@ -573,55 +598,64 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-]) (Data-Structure/2D-Segment-Tree.cpp) (Data-Structure/BIT.cpp)
-(Data-Structure/LiChaoST.cpp
+] (Data-Structure/2D-BIT.cpp) (Data-Structure/2D-Segment-Tree.cpp)
+(Data-Structure/BIT.cpp)
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[2]) (Data-Structure/Segment-Tree.cpp) (Data-Structure/Treap.cpp)
-(Data-Structure/ZKW-Segment-Tree.cpp) (Flow/Bipartite-Matching.cpp
+[2] (Data-Structure/LiChaoST.cpp) (Data-Structure/Segment-Tree.cpp)
+(Data-Structure/Treap.cpp) (Data-Structure/ZKW-Segment-Tree.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[3]) (Flow/Dinic.cpp) (Flow/KM.cpp
+[3]) (Flow/Bipartite-Matching.cpp) (Flow/Dinic.cpp) (Flow/KM.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[4]) (Flow/MCMF.cpp) (Geometry/Convex-Hull.cpp)
-(Geometry/Dynamic-Convex-Hull.cpp
+[4]) (Flow/MCMF.cpp)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.163 \subsection{Basic_2D}
+                           
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.163 \subsection{Basic_2D}
+                           
+? 
+(Geometry/Basic_2D.cpp
 
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+LaTeX Font Warning: Font shape `TU/FandolFang-Regular(0)/m/it' undefined
+(Font)              using `TU/FandolFang-Regular(0)/m/n' instead on input line 
+25.
 
-[5]) (Geometry/Segmentation-Intersection.cpp) (Graph/2-SAT.cpp)
-(Graph/AP-Bridge.cpp) (Graph/Biconnected-Component.cpp)
-(Graph/Bridge-connected-Component.cpp
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 係 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
 
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[6]) (Graph/Close-Vertices.cpp) (Graph/Disjoint-Set.cpp
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[7]) (Graph/Heavy-Light-Decomposition.cpp) (Graph/KSP.cpp) (Graph/LCA.cpp
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 3.60004pt, for example:
-(fancyhdr)                \setlength{\footskip}{3.60004pt}.
-
-[8]) (Graph/SCC(Kosaraju).cpp) (Graph/SCC(Tarjan).cpp) (Graph/Tree-Centroid.cpp
-) (Math/Big-Int.cpp
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -630,26 +664,59 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[9]
+[5]
+Missing character: There is no 內 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 內 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 為 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+Missing character: There is no 線 in font [FandolFang-Regular.otf]/OT:language=d
+flt;!
+) (Geometry/BronKerbosch.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[6]) (Geometry/Convex-Hull.cpp) (Geometry/Dynamic-Convex-Hull.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[7]) (Geometry/Segmentation-Intersection.cpp) (Graph/2-SAT.cpp)
+(Graph/AP-Bridge.cpp) (Graph/Biconnected-Component.cpp)
+(Graph/Bridge-connected-Component.cpp) (Graph/Close-Vertices.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(Math/Extgcd.cpp) (Math/Karatsuba.cpp
+(Graph/Disjoint-Set.cpp) (Graph/Heavy-Light-Decomposition.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[10]) (Math/Linear-Sieve.cpp) (Math/Matrix.cpp) (Math/Miller-Rabin.cpp)
-(Math/NTT.cpp
+[9]) (Graph/KSP.cpp) (Graph/LCA.cpp) (Graph/SCC(Kosaraju).cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[11]) (Math/Pollard-Rho.cpp) (Math/Theorem.tex) (Others/Mo.cpp)
-(Others/Partial-Ordering.cpp)
-Underfull \vbox (badness 2435) has occurred while \output is active []
+[10]) (Graph/SCC(Tarjan).cpp) (Graph/Tree-Centroid.cpp) (Math/Big-Int.cpp
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -657,31 +724,57 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[12] (String/AC.cpp) (String/Hash.cpp) (String/KMP.cpp) (String/Manacher.cpp)
-(String/SA.cpp
+[11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(Math/Extgcd.cpp) (Math/Karatsuba.cpp) (Math/Linear-Sieve.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[13]) (String/SAIS.cpp) (String/Z.cpp)
+[12]) (Math/Matrix.cpp) (Math/Miller-Rabin.cpp) (Math/NTT.cpp)
+(Math/Pollard-Rho.cpp
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 3.60004pt, for example:
 (fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
-[14] (codebook.aux)
+[13]) (Math/Theorem.tex) (Others/Mo.cpp) (Others/Partial-Ordering.cpp)
+(String/AC.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[14]) (String/Hash.cpp) (String/KMP.cpp) (String/Manacher.cpp) (String/SA.cpp)
+(String/SAIS.cpp
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[15]) (String/Z.cpp)
+
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
+
+[16
+
+] (codebook.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10926 strings out of 411463
- 236712 string characters out of 5818007
- 3171290 words of memory out of 5000000
- 30899 multiletter control sequences out of 15000+600000
- 514376 words of font info for 70 fonts, out of 8000000 for 9000
+ 11102 strings out of 411463
+ 240432 string characters out of 5818007
+ 3278290 words of memory out of 5000000
+ 31053 multiletter control sequences out of 15000+600000
+ 519061 words of font info for 93 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,12n,77p,386b,1649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on codebook.pdf (14 pages).
+Output written on codebook.pdf (16 pages).
